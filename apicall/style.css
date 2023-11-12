@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    font-size: 8vw;
+}
+
+#cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+}
+
+.title{
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 3vw;
+}
+
+.images{
+    width: 80%;
+}
+
+.card{
+    width: 24%;
+    text-align: center;
+    border: 10px solid yellowgreen;
+
+}
+
+.category,.price{
+    font-weight: bold;
+    padding: 3px;
+    font-size: 2vw;
+}
+
+.description{
+    font-size: 1vw;
+}
+
+
